@@ -1,0 +1,38 @@
+.container {
+    background-color: #0D0628;
+    border: 1px #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #F9DBBD;
+    margin-right: 31%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #F9DBBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: #F9DBBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills{
+    color: #F9DBBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social{
+    color: #F9DBBD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#foto{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
