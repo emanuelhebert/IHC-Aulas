@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+
+        body{
+            background-color: blue;
+            text-align: center;
+            height: 100%;
+
+        }
+
+        h1{
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        button{
+            width: 30%;
+        }
+
+        #result{
+            width: 80%;
+            padding: 20px;
+            margin-top: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            border: 1px solid;
+            color: white;
+            
+        }
+
+        
+        
+    </style>
+
+</head>
+<body>
+    
+    <h1>Calculadora</h1>
+    <input type="number" id="number1" placeholder="Digite um numero">
+    <select type="number" id="opcao">
+        
+        <option value="som">SOMAR</option>
+        <option value="sub">DIMINUIR</option>
+        <option value="div">DIVIDIR</option>
+        <option value="mult">MULTIPLICAR</option>
+    </select>
+    
+    <input type="number" id="number2" placeholder="Digite um numero"><br><br>
+
+    <button type="button" id="calc" >CONFIRMAR</button>
+    <br>
+    <br>
+    <br>
+    <span id="result"></span>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
